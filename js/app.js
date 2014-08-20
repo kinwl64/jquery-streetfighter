@@ -28,8 +28,8 @@ $(document).ready(function() {
 
 	$(document).keydown(function(e){
 		if (e.keyCode == 88) {
-//      playEyeoftiger();
-        $('.ryu-ready').hide();
+//      	playEyeoftiger();
+        $('.ryu-fight').hide();
      	$('.ryu-cool').show(); 
 	}	
 
@@ -38,7 +38,7 @@ $(document).ready(function() {
 //	    $('#eye-of-tiger')[0].pause();
 //	    $('#eye-of-tiger')[0].load();
         $('.ryu-cool').hide();
-        $('.ryu-still').show();
+        $('.ryu-fight').show();
     }
   });
 });
